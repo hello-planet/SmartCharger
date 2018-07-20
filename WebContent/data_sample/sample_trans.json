@@ -1,0 +1,11 @@
+{
+	"Sample_trans": [
+		{
+			"power_vol": "0",
+			"cash_vol": "123",
+			"charger_id": "1111",
+			"usr_id": "112113",
+			"date_time": "2018-4-5 21:18:25"
+		}
+	]
+}

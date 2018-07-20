@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<server>
+	<!-- The node of "redis" represents the configuration of redis server locally 
+		or remotely. Connection detials can be set in redis-side conf files and modified 
+		here as well. The "task_list" represents the key of data structure(Hash) 
+		storing the "waiting" tasks in redis. The "node_addr" represents the key 
+		of data structure(List) for addresses of nodes in blockchain. -->
+	<redis redis_addr="localhost" port="6379" password="" task_list="task_list"
+		node_addr="node_addr_list" />
+
+	<!-- Mysql represents the configuration of mysql server locally or remotely. -->
+	<mysql mysql_addr="localhost" port="3306" user="root" password="1111" />
+
+	<!-- Common setting for the server configuration -->
+	<server>
+		<logpath path='/log/' />
+	</server>
+
+</server>
